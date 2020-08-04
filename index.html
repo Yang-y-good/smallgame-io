@@ -6,6 +6,15 @@
 		<script src="js/jquery-min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<script src="js/index.js"></script>
+		<script>
+			if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i))) {
+			
+			window.location.href="msshouji.html";
+			}else{
+			//显示非移动端的代码
+			
+			}
+		</script>
 	</head>
 	<body>
 		<div class="img-bg">
@@ -39,11 +48,7 @@
 			<div class="over-game">
 				<span>GAME OVER</span>
 				<button>重新开始</button>
-				
-			</div>
-			<!-- 灰太狼动画 -->
-			<div class="hui">
-				
+
 			</div>
 		</div>
 	</body>

@@ -110,7 +110,7 @@ $(function() {
 				}
 				$img.attr('src', getrandom1[index]);
 				index++;
-			}, 130);
+			}, 140);
 			//给图片定位
 			$img.css({
 				position: 'absolute',
