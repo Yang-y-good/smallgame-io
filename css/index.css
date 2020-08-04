@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: red
+}
+
+/* 设置背景图片 */
+.img-bg {
+	position: relative;
+	width: 320px;
+	height: 480px;
+	margin: 50px auto;
+	background: url(../images/game_bg.jpg) no-repeat;
+	/* background-size: 320px 500px; */
+}
+
+/* 设置得分数字 */
+.img-bg>span {
+	position: absolute;
+	top: 3px;
+	left: 61px;
+	font-size: 30px;
+	color: white;
+}
+
+/* 设置事件进度条 */
+.img-bg .time {
+	position: absolute;
+	top: 67px;
+	left: 63px;
+	width: 180px;
+	height: 16px;
+	background-color: red;
+	border-radius: 8px;
+}
+
+/* 设置开始游戏按钮 */
+.img-bg .start {
+	position: absolute;
+	border: none;
+	top: 327px;
+	left: 50%;
+	margin-left: -65px;
+	height: 25px;
+	width: 130px;
+	border-radius: 15px;
+	background-color: #D83825;
+	text-align: center;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+/* 设置游戏规则按钮 */
+.img-bg .rule {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background-color: #CCCCCC;
+	text-align: center;
+	line-height: 30px;
+}
+
+.rule input {
+	border: none;
+	/* 消除默认边框 */
+	outline: none;
+	/* 消除默认点击效果 */
+	cursor: pointer;
+	background-color: #CCCCCC;
+	font-size: 18px;
+}
+
+/* 游戏规则显示的蒙版 */
+.rule-game {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+
+}
+
+.rule-game ul {
+	list-style: none;
+
+	padding-top: 100px;
+}
+
+.rule-game ul>li {
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+
+/* 游戏结束显示的蒙版 */
+.over-game {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.over-game span {
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -119px;
+	color: red;
+	font-size: 40px;
+	text-shadow: 4px 0px 3px white;
+}
+
+.over-game button {
+	position: absolute;
+	border: none;
+	height: 25px;
+	width: 130px;
+	top: 327px;
+	left: 50%;
+	margin-left: -65px;
+	border-radius: 15px;
+	background-color: #2C8FD6;
+	text-align: center;
+	line-height: 25px;
+	color: #FFFFFF;
+	left: ;
+}
+
+/* 设置灰太狼 */
+
